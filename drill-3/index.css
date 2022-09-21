@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.tinybox {
+    position: absolute;
+background-color: rgb(44, 110, 196);
+height: 50px;
+width: 50px;
+z-index: 2;
+top: 30px;
+margin-left: 10px;
+
+}
+
+.graybox {
+    background-color: gray;
+    position: relative;
+    bottom:50px;
+    height:100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    top: 0;
+}
+
+.textbox {
+    position: relative;
+    height: 200px;
+    font-size: 50px;
+
+}
+
+.bluebox {
+    position: relative;
+    height: 150px;
+    background-color: lightblue;
+    
+}
+
+.aquabox {
+    position: relative;
+    height: 150px;
+    background-color: aqua;
+}
+
+.greenbox {
+    position: relative;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+.yellowbox {
+    position: relative;
+    height: 150px;
+    background-color: yellow;
+}
+
+.questionmark {
+    position: fixed;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+display: inline-block;
+bottom: 5px;
+right: 5px;
+}
+
